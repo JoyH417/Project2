@@ -1,1 +1,150 @@
+* {
+    box-sizing: border-box;
+}
 
+.container {
+        text-align: center;
+        margin: auto;
+        padding-left: 1em;
+        padding-right: 1em;
+
+	}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+
+}
+
+.wrap{
+    min-height: 100vh;
+}
+
+
+
+/***Body***/
+
+
+h1{
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 5px;
+    
+}
+
+
+p{
+    margin-bottom: 3.125em;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+img {
+    width: 40%;
+
+}
+
+
+
+.me {
+    width: 30%;
+    margin-right: 10px;
+    margin-bottom: 70px;
+    padding-bottom: 40px;
+    float: right;
+}
+
+
+.main-nav{
+    float: right;
+    margin-right: 4px;
+    margin-left: 10px;
+}
+
+
+.main-nav li {
+    list-style: none;
+    float:left;
+    margin-right: 10px;
+
+    
+}
+
+
+
+#intro{
+    float: left;
+    width: 40%;
+    margin-right: 5px;
+    margin-left: 2px;
+}
+
+
+
+/***Footer***/
+
+#name{
+    float: left;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+footer{
+    margin-top: 40px;
+    border-top: lightgrey 1px solid;
+    margin-bottom: 40px;
+
+}
+
+
+/**pseudo classes**/
+
+
+a:link {
+    color: teal;
+    text-decoration: none;
+}
+
+a:visited {
+    color: blue;
+
+}
+
+a:hover{
+    color: orange;
+
+}
+
+a:focus {
+    color: palevioletred;
+
+}
+
+
+
+/***Media Query Section***/
+
+@media (min-width: 768px) {
+    .container{
+        max-width: 1000px;
+        width: 70%;
+        margin: auto;
+    }
+
+   
+
+
+
+}
+
+
+@media (min-width: 1024px) {
+
+    .container{
+        max-width: 1256px;
+        width: 70%;
+        margin: auto;
+    }
+
+}
