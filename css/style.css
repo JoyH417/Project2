@@ -40,10 +40,8 @@ h1{
 
 p{
     margin-bottom: 3.125em;
-    margin-left: 0.375em;
-    margin-right: 0.625em;
-    padding-left: 0.313em;
-    padding-right: 1.25em;
+    margin-left: 40px;
+    padding-left: 30px;
 }
 
 img {
@@ -183,6 +181,12 @@ a:focus {
         width: 50%;
         padding: 0.500em;
     }
+
+    p{
+        margin-left: 40px;
+        padding-left: 30px;
+    }
+
 
 
     footer{
