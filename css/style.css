@@ -40,7 +40,7 @@ h1{
 
 p{
     margin-bottom: 3.125em;
-    margin-left: 2.500em;
+    margin-left: 1.875em;
     padding-left: 1.875em;
 }
 
@@ -180,11 +180,6 @@ a:focus {
         float: right;
         width: 50%;
         padding: 0.500em;
-    }
-
-    p{
-        margin-left: 2.500em;
-        padding-left: 1.875em;
     }
 
 
