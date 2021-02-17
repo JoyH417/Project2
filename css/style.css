@@ -1,0 +1,240 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+        text-align: center;
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        font-size: 1.25em;
+        margin: auto;
+        line-height: 1.15;
+        padding-left: 1em;
+        padding-right: 1em;
+
+	}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+
+}
+
+.wrap{
+    min-height: 100vh;
+}
+
+
+
+/***Body***/
+
+
+h1{
+    text-align: left;
+    margin-left: 0.25em;
+    margin-right: 0.325em;
+    margin-top: 1.250em;
+    
+}
+
+
+p{
+    margin-bottom: 3.125em;
+    margin-left: 1.875em;
+    padding-left: 1.875em;
+}
+
+img {
+    width: 100%;
+    margin-left: 1.25em;
+    margin-right: 1.25em;
+    padding-left: 1.25em;
+    padding-right: 1.25em;
+
+
+}
+
+
+
+.me {
+    width: 40%;
+    margin-right: 0.375em;
+    margin-left: 1.875em;
+    margin-bottom: 1.875em;
+    padding-bottom: 1.875em;
+    float: right;
+}
+
+
+.main-nav{
+    float: right;
+    margin-right: 0.250em;
+    margin-left: 0.625em;
+    margin-bottom: 1.250em;
+}
+
+
+.main-nav li {
+    list-style: none;
+    float:left;
+    margin-right: 0.625em;
+
+    
+}
+
+
+
+#intro{
+    float: left;
+    width: 40%;
+    margin-right: 0.313em;
+    margin-left: 0.125em;
+}
+
+
+
+/***Footer***/
+
+#name{
+    float: left;
+    margin-left: 0.625em;
+    margin-right: 0.313em;
+}
+
+footer{
+    margin-top: 2.500em;
+    border-top: lightgrey 1px solid;
+    margin-bottom: 2.500em;
+
+}
+
+
+/**pseudo classes**/
+
+
+a:link {
+    color: teal;
+    text-decoration: none;
+}
+
+a:visited {
+    color: blue;
+
+}
+
+a:hover{
+    color: orange;
+
+}
+
+a:focus {
+    color: palevioletred;
+
+}
+
+
+
+/***Media Query Section***/
+
+@media (min-width: 768px) {
+    .container{
+        max-width: 62.500em;
+        width: 70%;
+        margin: auto;
+    }
+
+    .p1{
+        float: left;
+        width: 50%;
+        padding: 0.500em;
+        margin-top: 1.250em;
+    }
+
+    .p2{
+        float: right;
+        width: 50%;
+        padding: 0.500em;
+        margin-top: 1.250em;
+    }
+
+    .p3{
+        float: left;
+        width: 50%;
+        padding: 0.500em;
+
+    }
+
+    .p4{
+        float: right;
+        width: 50%;
+        padding: 0.500em;
+    }
+
+    .p5{
+        float: left;
+        width: 50%;
+        padding: 0.500em;
+    }
+
+    .p6{
+        float: right;
+        width: 50%;
+        padding: 0.500em;
+    }
+
+
+
+    footer{
+        clear: both;
+        padding-top: 1.250em;
+    }
+}
+
+
+@media (min-width: 1024px) {
+
+    .container{
+        width: 70%;
+        margin: auto;
+    }
+    
+    .p1{
+        float: left;
+        width: 30%;
+        margin-top: 1.250em;
+    }
+
+    .p2{
+        float: left;
+        width: 30%;
+        margin-top: 1.250em;
+        margin-left: 2.500em;
+    }
+
+    .p3{
+        float: right;
+        width: 30%;
+        margin-top: 1.250em;
+        clear: right;
+
+    }
+
+    .p4{
+        float: left;
+        width: 30%;
+    }
+
+    .p5{
+        float: left;
+        width: 30%;
+        margin-left: 2.500em;
+    }
+
+    .p6{
+        float: right;
+        width: 30%;
+        clear: right;
+
+    }
+
+}
