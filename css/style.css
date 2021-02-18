@@ -1,0 +1,327 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+        text-align: center;
+        max-width: 1024px;
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        font-size: 1.25em;
+        margin: auto;
+        line-height: 1.15;
+
+	}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+
+}
+
+.wrap{
+    min-height: 100vh;
+}
+
+
+
+/***Body***/
+
+
+h1{
+    text-align: center;
+    
+}
+
+
+p{
+    margin-bottom: 3.125em;
+    text-align: left;
+    margin-left: 1.875em;
+    padding-left: 1.875em;
+}
+
+img {
+    width: 100%;
+    margin-left: 1.25em;
+    margin-right: 1.25em;
+    padding-left: 1.25em;
+    padding-right: 1.25em;
+
+
+}
+
+
+
+.me {
+    width: 50%;
+    margin-right: 0.375em;
+    margin-left: 1.875em;
+}
+
+
+.main-nav{
+
+    margin-right: 0.250em;
+    margin-left: 0.625em;
+    margin-bottom: 1.250em;
+}
+
+
+.main-nav li {
+    list-style: none;
+    margin-right: 0.625em;
+
+    
+}
+
+
+.sec-nav{
+   float: right;
+}
+
+sec-nav li{
+    list-style: none;
+    float: left;
+    margin-right: 8px;
+
+}
+
+
+#intro{
+    text-align: center;
+}
+
+
+
+/***Footer***/
+
+#name{
+    float: left;
+    padding-left: 8px;
+}
+
+.hide{
+    display: none;
+}
+
+.bhm{
+    list-style: none;
+}
+
+footer{
+    margin-top: 2.500em;
+    border-top: lightgrey 1px solid;
+    margin-bottom: 2.500em;
+
+}
+
+
+/**pseudo classes**/
+
+
+a:link {
+    color: teal;
+    text-decoration: none;
+}
+
+a:visited {
+    color: blue;
+
+}
+
+a:hover{
+    color: orange;
+
+}
+
+a:focus {
+    color: palevioletred;
+
+}
+
+
+
+/***Media Query Section***/
+
+@media (min-width: 768px) {
+    .container{
+        max-width: 62.500em;
+        width: 70%;
+        margin: auto;
+    }
+
+
+    .main-nav{
+        text-align: center;
+    }
+
+
+
+    .main-nav li {
+        list-style: none;
+        display: inline;
+    
+    }
+
+
+    #intro{
+        text-align: left;
+    }
+
+
+    .me {
+        width: 50%;
+        float: right;
+        margin-left: 10px;
+    }
+
+    .p1{
+        float: left;
+        width: 50%;
+        margin-top: 1.250em;
+    }
+
+    .p2{
+        float: left;
+        width: 50%;
+        margin-top: 1.250em;
+    }
+
+    .p3{
+        float: left;
+        width: 50%;
+
+    }
+
+    .p4{
+        float: left;
+        width: 50%;
+    }
+
+    .p5{
+        float: left;
+        width: 50%;
+    }
+
+    .p6{
+        float: left;
+        width: 50%;
+    }
+
+    /**Footer**/
+
+
+    .sec-nav{
+        float: right;
+    }
+
+    .sec-nav li{
+        list-style: none;
+        float: left;
+        margin-right: 8px;
+    }
+
+    .hide{
+        display: inline-block;
+    }
+
+    .bhm{
+        display: none;
+        list-style: none;
+    }
+}
+
+
+@media (min-width: 1024px) {
+
+    .container{
+        width: 70%;
+        margin: auto;
+    }
+
+    .main-nav{
+        float: right;
+    }
+
+    .main-nav li {
+        list-style: none;
+        float:left;
+        
+    }   
+    
+    .me {
+        width: 40%;
+        float: right;
+    }
+
+    #intro{
+        text-align: left;
+        width: 40%;
+    }
+
+    h1{
+        text-align: left;
+        
+    }
+
+    
+    .p1{
+        float: left;
+        width: 30%;
+        margin-top: 1.250em;
+    }
+
+    .p2{
+        float: left;
+        width: 30%;
+        margin-top: 1.250em;
+    }
+
+    .p3{
+        float: left;
+        width: 30%;
+        margin-top: 1.250em;
+        clear: right;
+
+    }
+
+    .p4{
+        float: left;
+        width: 30%;
+
+    }
+
+    .p5{
+        float: left;
+        width: 30%;
+    }
+
+    .p6{
+        float: left;
+        width: 30%;
+
+    }
+
+    .bcn{
+        display: inline-block;
+    }
+
+/**Footer**/
+.sec-nav{
+    float: right;
+}
+
+.sec-nav li{
+    list-style: none;
+    float:left;
+    margin-right: 8px;
+}
+
+.bhm{
+    display: none;
+    list-style: none;
+}
+
+
+}
